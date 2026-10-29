@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "data": [
+    {
+      "clusterId": "cluster:08899210:polymarket:opinion",
+      "question": "Will Mark Kelly be the Democratic Presidential nominee in 2028?",
+      "similarity": 0.9492423108849513,
+      "contracts": 100,
+      "legs": {
+        "buyYes": {
+          "venue": "polymarket",
+          "canonicalMarketId": "polymarket:559668",
+          "side": "yes",
+          "asOf": "2026-10-28T19:54:31.712Z",
+          "bookSource": "predictefy-live",
+          "live": true,
+          "executable": true,
+          "reasons": [],
+          "vwap": 0.019,
+          "cost": 1.9,
+          "fee": 0.13048,
+          "feeBasis": "unknown-category-conservative",
+          "filled": 100,
+          "fullyFilled": true,
+          "outcomeId": "92325249719485031139867422012514654102580961954747753469470405147070256604118",
+          "sizeAtPrice": 101321.4
+        },
+        "buyNo": {
+          "venue": "opinion",
+          "canonicalMarketId": "opinion:6814",
+          "side": "no",
+          "asOf": "2026-10-28T18:35:38.648Z",
+          "bookSource": "predictefy-live",
+          "live": true,
+          "executable": true,
+          "reasons": [],
+          "vwap": 0.9042808,
+          "cost": 90.42808,
+          "fee": 0.9042808,
+          "feeBasis": "ceiling",
+          "filled": 100,
+          "fullyFilled": true,
+          "outcomeId": "58077615053283069565733670051493747834074063288654860521929653968104946325998",
+          "sizeAtPrice": 37.79
+        }
+      },
+      "resolution": {
+        "compatible": true,
+        "reason": "",
+        "auditReasons": []
+      },
+      "settlementFee": 0,
+      "networkFee": 0.51,
+      "totalCost": 93.87284079999999,
+      "payout": 100,
+      "netEdge": 6.127159200000008,
+      "roi": 0.06527084029612118,
+      "executable": true,
+      "reasons": [],
+      "label": "arbitrage",
+      "asOf": "2026-10-28T18:35:38.648Z",
+      "assessedAt": "2026-10-28T19:54:41.376Z",
+      "resolutionEquivalence": "verified",
+      "matchScore": 100,
+      "matchBand": "verified",
+      "matchDifferences": []
+    },
+    {
+      "clusterId": "cluster:08899210:kalshi:opinion",
+      "question": "Will Mark Kelly be the Democratic Presidential nominee in 2028?",
+      "similarity": 0.9492423108849513,
+      "contracts": 100,
+      "legs": {
+        "buyYes": {
+          "venue": "kalshi",
+          "canonicalMarketId": "kalshi:KXPRESNOMD-28-MK",
+          "side": "yes",
+          "asOf": "2026-10-28T19:54:16.016Z",
+          "bookSource": "predictefy-live",
+          "live": true,
+          "executable": true,
+          "reasons": [],
+          "vwap": 0.037989999999999996,
+          "cost": 3.799,
+          "fee": 0.26099999999999957,
+          "feeBasis": "general-nondirect",
+          "filled": 100,
+          "fullyFilled": true,
+          "outcomeId": "KXPRESNOMD-28-MK",
+          "sizeAtPrice": 1
+        },
+        "buyNo": {
+          "venue": "opinion",
+          "canonicalMarketId": "opinion:6814",
+          "side": "no",
+          "asOf": "2026-10-28T18:35:38.648Z",
+          "bookSource": "predictefy-live",
+          "live": true,
+          "executable": true,
+          "reasons": [],
+          "vwap": 0.9042808,
+          "cost": 90.42808,
+          "fee": 0.9042808,
+          "feeBasis": "ceiling",
+          "filled": 100,
+          "fullyFilled": true,
+          "outcomeId": "58077615053283069565733670051493747834074063288654860521929653968104946325998",
+          "sizeAtPrice": 37.79
+        }
+      },
+      "resolution": {
+        "compatible": true,
+        "reason": "",
+        "auditReasons": []
+      },
+      "settlementFee": 0,
+      "networkFee": 0.33,
+      "totalCost": 95.72236079999999,
+      "payout": 100,
+      "netEdge": 4.27763920000001,
+      "roi": 0.04468798266413014,
+      "executable": true,
+      "reasons": [],
+      "label": "arbitrage",
+      "asOf": "2026-10-28T18:35:38.648Z",
+      "assessedAt": "2026-10-28T19:54:41.375Z",
+      "resolutionEquivalence": "verified",
+      "matchScore": 100,
+      "matchBand": "verified",
+      "matchDifferences": []
+    },
+    {
+      "clusterId": "cluster:208eed4d:limitless:opinion",
+      "question": "Fed decision in October? - Fed maintains rate",
+      "similarity": 0.8198083119864749,
+      "contracts": 100,
+      "legs": {
+        "buyYes": {
+          "venue": "limitless",
+          "canonicalMarketId": "limitless:no-change-1786349804933",
+          "side": "yes",
+          "asOf": "2026-10-28T19:16:52.074Z",
+          "bookSource": "predictefy-live",
+          "live": true,
+          "executable": true,
+          "reasons": [],
+          "vwap": 0.964,
+          "cost": 96.39999999999999,
+          "fee": 0.53,
+          "feeBasis": "buy-table-tokens",
+          "filled": 100,
+          "fullyFilled": true,
+          "outcomeId": "no-change-1786349804933:yes",
+          "sizeAtPrice": 300
+        },
+        "buyNo": {
+          "venue": "opinion",
+          "canonicalMarketId": "opinion:41493",
+          "side": "no",
+          "asOf": "2026-10-28T18:35:41.419Z",
+          "bookSource": "predictefy-live",
+          "live": true,
+          "executable": true,
+          "reasons": [],
+          "vwap": 0.021,
+          "cost": 2.1,
+          "fee": 0.25,
+          "feeBasis": "ceiling",
+          "filled": 100,
+          "fullyFilled": true,
+          "outcomeId": "60212383659994111870497497491023641072462717253586894904167138264962850342342",
+          "sizeAtPrice": 199.2849846782431
+        }
+      },
+      "resolution": {
+        "compatible": true,
+        "reason": "",
+        "auditReasons": []
+      },
+      "settlementFee": 0,
+      "networkFee": 0.33,
+      "totalCost": 99.60999999999999,
+      "payout": 100,
+      "netEdge": 0.3900000000000148,
+      "roi": 0.003915269551250024,
+      "executable": true,
+      "reasons": [],
+      "label": "arbitrage",
+      "asOf": "2026-10-28T18:35:41.419Z",
+      "assessedAt": "2026-10-28T19:53:46.558Z",
+      "resolutionEquivalence": "verified",
+      "matchScore": 100,
+      "matchBand": "verified",
+      "matchDifferences": []
+    }
+  ],
+  "meta": {
+    "live": true,
+    "contracts": 100,
+    "provenance": {
+      "source": "predictefy-live"
+    },
+    "asOf": "2026-10-28T19:55:14.945Z",
+    "seq": 1793092314054493,
+    "source": "published",
+    "judgeBeforeServe": {
+      "heldClusters": 557,
+      "reason": "judge_verdict_pending"
+    }
+  },
+  "page": {
+    "limit": 500,
+    "offset": 0,
+    "total": 3,
+    "hasMore": false
+  },
+  "checkedAtUTC": "2026-10-28T19:55:15.475872+00:00"
+}
